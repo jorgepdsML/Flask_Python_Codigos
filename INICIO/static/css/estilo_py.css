@@ -1,0 +1,136 @@
+.contenedorp
+{
+ 
+	display: flex;
+	background-color: #eee;
+}
+.button
+{
+	 background-color: black; /*color negro*/
+  border: 2px solid;
+  
+  border-radius:12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 150px;     /*margenes*/
+  margin-top: 40px ;
+  font-size: 16px;       /*tamaño del boton*/
+  position: absolute;     /*posición abosulta*/
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+
+
+.button:hover {
+  background-color: #cc0333;
+  color: white;
+}
+#descrip-div
+{ margin-top: 200px;
+	
+	width: 700px;
+		height: 300px;
+
+border-color: #000;
+  border:0  solid;
+}
+#descrip-tite
+{
+	 
+	 position: absolute;
+	margin-left: 90px;
+	font-style: italic;
+
+}
+
+#descrip-content
+{
+	margin-top: 70px;
+	margin-left: 10px;
+
+}
+
+#descrip-div2
+{ margin-top: 200px;
+	
+	width: 500px;
+		height: 300px;
+
+border-color: #000;
+border: 0 solid;
+   
+}
+
+#descrip-tite2
+{
+	 
+	 position: absolute;
+	margin-left: 90px;
+	font-style: italic;
+
+}
+#descrip-content2
+{
+	margin-top: 70px;
+	margin-left: 10px;
+
+}
+
+
+#descrip-div3
+{ margin-top: 200px;
+	
+	width: 500px;
+	height: 300px;
+border-color: #000;
+border: 0 solid;
+   
+}
+
+#descrip-tite3
+{
+	 
+	 position: absolute;
+	margin-left: 90px;
+	font-style: italic;
+
+}
+#descrip-content3
+{
+	margin-top: 70px;
+	margin-left: 10px;
+
+}
+
+.contenedord
+{
+ 
+	display: flex;
+	background-color: #eee;
+}
+
+.descrip-divv
+{ margin-top: 2px;
+width: 450px;
+height: 200px;
+border-color: #000;
+  border:0  solid;
+  background-color: #fff;
+}
+.guiasc
+{
+position: absolute;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.guiasd
+{
+	position: absolute;
+	margin-left: 75px;
+	margin-top: 140px;
+}

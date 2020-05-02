@@ -1,0 +1,72 @@
+.menu{width:800px;
+     background:#ccc;
+     list-style: none;
+    margin:10px 500px  ;
+     padding:0;
+   }
+   .menu li
+   {
+   	display: inline-block;
+   }
+   .menu li a
+   {
+      padding: 10px 20px;
+      display: inline-block;
+color: #000;
+   }
+body
+{
+	background: #f2f2f2;
+}
+div.div1
+{
+	background: #ff8;
+	height: 200px;
+	width: 560px;
+	margin:0px 650px  ;
+}
+div.div2
+{
+	background: #f8f;
+	height: 50px;
+	width:70px;
+}
+div#div3
+{
+	background: #f7f;
+	display:inline-block;
+}
+
+
+div#contactenos
+{
+
+	background: #cc1
+	margin:0px 0px;
+	width: 1300;
+	height: 400;
+	border: 1px solid #021;
+
+}
+div#mensaje
+{
+	background: #cc1
+	margin:0px 0px;
+	width: 1300;
+	height: 300;
+	border: 1px solid #000;
+
+}
+#contenedorc
+{background: #cc1
+	margin:0px 0px;
+	width: 1250;
+	height: 200;
+	border: 0 solid #000;
+
+}
+h3.redes_sociales
+{
+    margin: 0px 300px;
+
+}

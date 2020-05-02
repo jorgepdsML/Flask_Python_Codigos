@@ -1,0 +1,246 @@
+
+div.slider
+{
+	width: 1050px;
+	height:450px;
+	margin:30px auto;
+	
+	border-color: #000;
+overflow: hidden;
+ 	justify-content: space-between;
+
+}
+.lista1 img
+{
+ width: 850px;
+ height: 300px;
+
+}
+.slider ul
+{
+	display: flex;
+	padding: 0;
+	width: 1450px;
+
+	animation: cambio 8s infinite alternate;
+}
+
+
+.slider img
+{
+	width: 1150px;
+	height:300px;
+
+}
+
+.curso1 img
+{
+	width:300px;
+	height: 260px;
+	margin-top: 20px;
+	border-color: #33c;
+	border:1px solid;
+
+}
+
+.curso2 img
+{
+	width:300px;
+	height: 260px;
+	margin-top: 20px;
+ border:1px solid;
+}
+.curso3 img
+{
+	width: 300px;
+	height: 260px;
+	margin-top: 20px;
+    border:1px solid;
+}
+@keyframes cambio
+{
+	0% {margin-left:0 ;}
+	20% {margin-left:0; }
+
+	25%{margin-left: -350px;}
+	45%{ margin-left:-350px; }
+	
+	50%{margin-left: -800px;}
+	70%{margin-left: -700px;}
+
+	80%{margin-left: -1200px;}
+	100%{margin-left: -1400px;}
+
+}
+.contenedori
+{
+	position: relative;
+	width: 1350px;
+	height: 500px;
+	margin:0px 0px;
+	padding: 10px 5px;
+    border: 2px;
+     background-color: #ccc;
+}
+.contenedori2
+{
+	position: relative;
+	width: 1350px;
+	height: 500px;
+	margin:0px 0px;
+	padding: 10px 5px;
+    border: 2px;
+     background-color: #ccc;
+}
+
+#CURSO_CAPA
+{
+     font-size: 25px;
+	font-style: oblique;
+	text-align: center;
+}
+.curso1
+{
+   width:350px;
+   height: 320px;
+    margin-top: 40px;
+
+   margin-left: 100px;
+   padding: 10px 10px;
+   border-color: black;
+  border:2px solid;
+   position: absolute;
+   overflow: hidden;
+   border:1px solid;
+}
+
+.portafolio1
+{
+	position: absolute;
+	bottom: 0;
+	padding: 10px;
+	border:1px solid;
+	width: 280px;
+	height: 120px;
+	background-color: rgba(0,0,0,0.7);
+	color: #fff;
+	text-align: justify;
+transform: translateY(100%);
+}
+
+
+.curso1:hover .portafolio1
+{
+	transform: translateY(0%);
+}
+.curso2
+{
+	width:350px;
+   height: 320px;
+   margin-top: 40px;
+   margin-left: 500px;
+  border-color: black;
+  border:2px solid;
+   padding: 10px 10px;
+   position: absolute;
+overflow: hidden;
+
+}
+.portafolio2
+{
+	position: absolute;
+	bottom: 0;
+	padding: 10px;
+	border:1px solid;
+	width: 280px;
+	height: 120px;
+	background-color: rgba(0,0,0,0.7);
+	color: #fff;
+	text-align: justify;
+transform: translateY(100%);
+}
+
+.curso2:hover .portafolio2
+{
+	transform: translateY(0%);
+}
+
+.curso3
+{
+	width:350px;
+   height: 320px;
+      margin-top: 40px;
+
+    margin-left: 900px;
+
+   padding: 10px 10px;
+    border:2px solid;
+   position: absolute;
+   overflow: hidden;
+   border:1px solid;
+
+}
+.portafolio3
+{
+	position: absolute;
+	bottom: 0;
+	padding: 10px;
+	border:1px solid;
+	width: 280px;
+	height: 120px;
+	background-color: rgba(0,0,0,0.7);
+	color: #fff;
+	text-align: justify;
+transform: translateY(100%);
+}
+
+.curso3:hover .portafolio3
+{
+	transform: translateY(0%);
+}
+
+.button_p
+{
+	 background-color: black; /*color negro*/
+  border: 2px solid;
+  
+  border-radius:9px;
+  color: #ccc;
+  
+  text-align: center;
+  text-decoration: none;
+   width: 100px;
+   height: 25px;
+
+  font-size:14px;       /*tamaño del boton*/
+  position: absolute;     /*posición abosulta*/
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button_p:hover {
+  background-color: #cc0333;
+  color: white;
+}
+
+.contenedori-container
+{
+	display: flex; 
+	justify-content: space-between;
+	border:1px solid;
+}
+.contenedori-container2
+{
+	display: flex; 
+	justify-content: space-between;
+}
+
+.titulo_py
+{
+	position: absolute;
+
+ margin left: 10px;
+ margin-top: 0;
+ font-size: 14px;
+ font-style: inherit;
+}
